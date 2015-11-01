@@ -27,7 +27,8 @@
     "lib"
   ],
   "dependencies": {
-    "get-set-props": "^0.1.0"
+    "get-set-props": "^0.1.0",
+    "lowercase-keys": "^1.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.0.12",
