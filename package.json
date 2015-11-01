@@ -1,6 +1,6 @@
 {
   "name": "is-get-set-prop",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Does a JS type have a getter/setter property",
   "main": "lib/index.js",
   "scripts": {
