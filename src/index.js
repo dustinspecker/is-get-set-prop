@@ -11,13 +11,11 @@ const lowerGetSetProps = lowercaseKeys(getSetProps)
  * @return {Boolean} - type has getter/setter named property
  */
 module.exports = (type, property) => {
-  let lowerType
-
   if (typeof type !== 'string' || typeof property !== 'string') {
     throw new TypeError('Expected a string')
   }
 
-  lowerType = type.toLowerCase()
+  const lowerType = type.toLowerCase()
 
   return !!lowerGetSetProps[lowerType] && lowerGetSetProps[lowerType].indexOf(property) > -1
 }
