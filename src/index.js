@@ -1,6 +1,6 @@
 'use strict'
-import lowercaseKeys from 'lowercase-keys'
-import getSetProps from 'get-set-props'
+const lowercaseKeys = require('lowercase-keys')
+const getSetProps = require('get-set-props')
 
 const lowerGetSetProps = lowercaseKeys(getSetProps)
 
