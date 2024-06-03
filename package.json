@@ -4,7 +4,8 @@
   "description": "Does a JS type have a getter/setter property",
   "main": "src/index.js",
   "scripts": {
-    "test": "gulp test",
+    "lint": "eslint .",
+    "test": "npm run lint && ava",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "repository": "dustinspecker/is-get-set-prop",
@@ -31,17 +32,13 @@
     "lowercase-keys": "^1.0.0"
   },
   "devDependencies": {
-    "chai": "^3.0.0",
+    "ava": "^0.14.0",
     "coveralls": "^2.11.2",
+    "eslint": "^3.19.0",
     "eslint-config-dustinspecker": "^1.1.0",
     "eslint-plugin-new-with-error": "^1.1.0",
     "eslint-plugin-no-use-extend-native": "^0.3.1",
     "eslint-plugin-xo": "^0.5.1",
-    "gulp": "^3.9.0",
-    "gulp-eslint": "^3.0.1",
-    "gulp-if": "^2.0.0",
-    "gulp-istanbul": "^1.0.0",
-    "gulp-mocha": "^3.0.0",
-    "gulp-plumber": "^1.0.1"
+    "gulp-if": "^2.0.0"
   }
 }
