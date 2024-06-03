@@ -1,7 +1,7 @@
 # is-get-set-prop
-[![NPM version](https://badge.fury.io/js/is-get-set-prop.svg)](https://badge.fury.io/js/is-get-set-prop) [![Build Status](https://travis-ci.org/dustinspecker/is-get-set-prop.svg)](https://travis-ci.org/dustinspecker/is-get-set-prop) [![Coverage Status](https://img.shields.io/coveralls/dustinspecker/is-get-set-prop.svg)](https://coveralls.io/r/dustinspecker/is-get-set-prop?branch=master)
+[![NPM version](https://badge.fury.io/js/is-get-set-prop.svg)](https://badge.fury.io/js/is-get-set-prop) [![Coverage Status](https://img.shields.io/coveralls/dustinspecker/is-get-set-prop.svg)](https://coveralls.io/r/dustinspecker/is-get-set-prop?branch=main)
 
-[![Code Climate](https://codeclimate.com/github/dustinspecker/is-get-set-prop/badges/gpa.svg)](https://codeclimate.com/github/dustinspecker/is-get-set-prop) [![Dependencies](https://david-dm.org/dustinspecker/is-get-set-prop.svg)](https://david-dm.org/dustinspecker/is-get-set-prop/#info=dependencies&view=table) [![DevDependencies](https://david-dm.org/dustinspecker/is-get-set-prop/dev-status.svg)](https://david-dm.org/dustinspecker/is-get-set-prop/#info=devDependencies&view=table)
+[![Code Climate](https://codeclimate.com/github/dustinspecker/is-get-set-prop/badges/gpa.svg)](https://codeclimate.com/github/dustinspecker/is-get-set-prop)
 
 > Does a JS type have a getter/setter property
 
