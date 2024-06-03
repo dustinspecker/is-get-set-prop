@@ -32,7 +32,7 @@
   ],
   "dependencies": {
     "get-set-props": "^0.2.0",
-    "lowercase-keys": "^1.0.0"
+    "lowercase-keys": "^3.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.4.0",
