@@ -26,21 +26,6 @@ isGetSetProp('gulp', 'task');
 // => false;
 ```
 
-### ES5
-```javascript
-var isGetSetProp = require('is-get-set-prop');
-
-isGetSetProp('array', 'length');
-// => true
-
-isGetSetProp('ARRAY', 'push');
-// => false
-
-// is-get-set-prop can only verify native JS types
-isGetSetProp('customObject', 'customGetterOrSetter');
-// => false;
-```
-
 ## API
 ### isGetSetProp(type, propertyName)
 #### type

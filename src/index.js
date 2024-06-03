@@ -1,6 +1,5 @@
-'use strict'
-const lowercaseKeys = require('lowercase-keys')
-const getSetProps = require('get-set-props')
+import lowercaseKeys from 'lowercase-keys'
+import getSetProps from 'get-set-props'
 
 const lowerGetSetProps = lowercaseKeys(getSetProps)
 
@@ -10,7 +9,7 @@ const lowerGetSetProps = lowercaseKeys(getSetProps)
  * @param {String} property - name of property
  * @return {Boolean} - type has getter/setter named property
  */
-module.exports = (type, property) => {
+export default (type, property) => {
   if (typeof type !== 'string' || typeof property !== 'string') {
     throw new TypeError('Expected a string')
   }
