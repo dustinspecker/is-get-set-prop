@@ -22,6 +22,7 @@
     "email": "DustinSpecker@DustinSpecker.com",
     "url": "github.com/dustinspecker"
   },
+  "type": "module",
   "engines": {
     "node": "> 18.0.0"
   },
@@ -30,7 +31,7 @@
     "src"
   ],
   "dependencies": {
-    "get-set-props": "^0.1.0",
+    "get-set-props": "^0.2.0",
     "lowercase-keys": "^1.0.0"
   },
   "devDependencies": {

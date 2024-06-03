@@ -1,6 +1,5 @@
-'use strict'
-const test = require('ava')
-const isGetSetProp = require('../src/')
+import test from 'ava'
+import isGetSetProp from '../src/index.js'
 
 test('should throw error when type or property is not a string', t => {
   const typeTest = () => isGetSetProp(1, 'prop')
