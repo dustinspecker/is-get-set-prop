@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "npm run lint && ava",
+    "test": "npm run lint && c8 ava",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "repository": "dustinspecker/is-get-set-prop",
@@ -36,6 +36,7 @@
   },
   "devDependencies": {
     "ava": "^0.14.0",
+    "c8": "^9.1.0",
     "coveralls": "^2.11.2",
     "eslint": "^3.19.0",
     "eslint-config-dustinspecker": "^1.1.0",
@@ -43,5 +44,11 @@
     "eslint-plugin-no-use-extend-native": "^0.3.1",
     "eslint-plugin-xo": "^0.5.1",
     "gulp-if": "^2.0.0"
+  },
+  "c8": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
   }
 }
