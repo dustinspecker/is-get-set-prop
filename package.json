@@ -7,7 +7,10 @@
     "lint": "eslint .",
     "test": "npm run lint && c8 ava"
   },
-  "repository": "dustinspecker/is-get-set-prop",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dustinspecker/is-get-set-prop.git"
+  },
   "keywords": [
     "js",
     "javascript",
