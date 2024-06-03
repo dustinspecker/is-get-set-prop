@@ -6,8 +6,8 @@ test('should throw error when type or property is not a string', t => {
   const typeTest = () => isGetSetProp(1, 'prop')
   const propTest = () => isGetSetProp('type', 1)
 
-  t.throws(typeTest, TypeError, /t.truthyed a string/)
-  t.throws(propTest, TypeError, /t.truthyed a string/)
+  t.throws(typeTest, {instanceOf: TypeError, message: /Expected a string/})
+  t.throws(propTest, {instanceOf: TypeError, message: /Expected a string/})
 })
 
 test('should return false if not a js type', t => {
