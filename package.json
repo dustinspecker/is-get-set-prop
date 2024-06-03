@@ -23,6 +23,9 @@
     "email": "DustinSpecker@DustinSpecker.com",
     "url": "github.com/dustinspecker"
   },
+  "engines": {
+    "node": "> 18.0.0"
+  },
   "license": "MIT",
   "files": [
     "src"
